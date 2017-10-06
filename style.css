@@ -1,0 +1,59 @@
+/*
+Theme Name: CAO
+Author: KARTMAZOV
+Author URI: https://vk.com/ghostukr
+Description: CAO Theme
+Version: 0.2
+License: GNU General Public License v2 or later
+Text Domain: cao
+Template: CAO
+Template Version: 1.0.0
+GitHub Theme URI: https://github.com/GhostUkr/CAO
+GitHub Branch:    master
+*/
+/*OVERALL*/
+@font-face {
+	font-family: 'Helvetica';
+	src: url('fonts/HelveticaMedium.eot'); /* IE9 Compat Modes */
+	src: url('fonts/HelveticaMedium.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('fonts/HelveticaMedium.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+	font-family: 'HelveticaBold';
+	src: url('fonts/HelveticaBold.ttf'); /* IE9 Compat Modes */
+}
+@font-face {
+	font-family: 'HelveticaMedium';
+	src: url('fonts/HelveticaMedium.ttf'); /* IE9 Compat Modes */
+}
+/*GLOBAL*/
+
+/*Inputs*/
+
+
+.loader .co-load{position: absolute;top: 50%;left: 50%;height: 18px;margin-top: -9px;margin-left: -12px;}
+.loader .co-load .loading-bar{display: inline-block;margin:0px 1px;width: 4px;height: 18px;border-radius: 4px;animation: loading 1s ease-in-out infinite;background-color:#fff;}
+.loader .co-load .loading-bar:nth-child(1) {animation-delay: 0;}
+.loader .co-load .loading-bar:nth-child(2) {animation-delay: 0.09s;}
+.loader .co-load .loading-bar:nth-child(3) {animation-delay: .18s;}
+.loader .co-load .loading-bar:nth-child(4) {animation-delay: .27s;}
+  
+  @keyframes loading {
+	0% {
+	  transform: scale(1);
+	}
+	20% {
+	  transform: scale(1, 2.2);
+	}
+	40% {
+	  transform: scale(1);
+	}
+  }
+
+/*FRONT PAGE*/
+.front_page #map.front_contacts .overlay .row label{font-size:14px;color:#8e8f95;font-weight: 600;width: 100%;display: block;padding-top: 20px;padding-bottom:5px;}
+.front_page #map.front_contacts .overlay .row span{font-size:14px;color:#313439;font-weight: 600;}
+.front_page #map.front_contacts .overlay ul{list-style:none;padding:0px;margin:0px;}
+.front_page #map.front_contacts .overlay ul li{font-size:14px;color:#313439;font-weight: 600;margin-bottom: 5px;}
+
+/* СВЫШЕ 202 СТРОКИ */

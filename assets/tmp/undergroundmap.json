@@ -1,0 +1,72 @@
+{
+    "chinatown":{
+        "latlng":{"lat":55.7568251,"lng":37.6311382},
+        "name":"Китай город",
+        "index":0
+    },
+    "revolutionsplayz":{
+        "latlng":{"lat":55.7564497,"lng":37.623354},
+        "name":"Площадь Революции",
+        "index":1
+    },
+    "teatralnaya":{
+        "latlng":{"lat":55.75665531,"lng":37.61952639},
+        "name":"Театральная",
+        "index":2
+    },
+    "lubjanka":{
+        "latlng":{"lat":55.75928744,"lng":37.62810946},
+        "name":"Лубянка",
+        "index":3
+    },
+    "Baumannstrase":{
+        "latlng":{"lat":55.7724696,"lng":37.67909288},
+        "name":"Бауманская",
+        "index":13
+    },
+    "kuznetskymost":{
+        "latlng":{"lat":55.76153307,"lng":37.62428999},
+        "name":"Кузнецкий Мост",
+        "index":4
+    },
+    "okhotnyryad":{
+        "latlng":{"lat":55.7571285,"lng":37.6147072},
+        "name":"Охотный ряд",
+        "index":5
+    },
+    "krasnyevorota":{
+        "latlng":{"lat":55.769696,"lng":37.6502609},
+        "name":"Красные ворота",
+        "index":6
+    },
+    "sretenskiybulvar":{
+        "latlng":{"lat":55.76563651,"lng":37.63757509},
+        "name":"Сретенский бульвар",
+        "index":7
+    },
+    "turgenevskaya":{
+        "latlng":{"lat":55.76549165,"lng":37.63658804},
+        "name":"Тургеневская",
+        "index":8
+    },
+    "chistyeprudy":{
+        "latlng":{"lat":55.76498463,"lng":37.63836902},
+        "name":"Чистые пруды",
+        "index":9
+    },
+    "sukharevskaya":{
+        "latlng":{"lat":55.77237304,"lng":37.63170362},
+        "name":"Сухаревская",
+        "index":10
+    },
+    "tsvetnoybulvar":{
+        "latlng":{"lat":55.77172128,"lng":37.62066364},
+        "name":"Цветной бульвар",
+        "index":11
+    },
+    "trubnaya":{
+        "latlng":{"lat":55.76788291,"lng":37.62182236},
+        "name":"Трубная",
+        "index":12
+    }
+}

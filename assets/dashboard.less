@@ -1,0 +1,73 @@
+@col-red:#e62727;
+@col-green: #689f38;
+@col-dark:#252525;
+@col-text: #313439;
+@col-gray:#8f8989; 
+@col-gray-cold:#a3a5aa;
+@col-white:#fff;
+@col-divider:#d3d3d3;
+//
+@col-fresh:#339eff;
+@col-light:#888;
+@col-blue:#096484;
+@col-coffee:#c7a589;
+@col-ectoplasm:#a3b745;
+@col-midnight:#e14d43;
+@col-ocean:#738e96;
+@col-sunrise:#dd823b;
+/**/
+#wpfooter{display:none;}
+/*Иконки*/
+/*
+* Элементы по-умолчанию
+*/
+
+/*
+* Расширенные компоненты
+*/
+.cao_block-content{
+    .image-wide{
+        img{width:100%}
+        input{display:none;}
+    }
+    .items-list{
+        &.items-list-favourites{
+            width: 100%;
+            float: left;
+            min-height: 100px;
+            .item{height: 60px !important;
+                .pic{display:block;}
+                .info{
+                    input[type="text"]{display:block;}
+                }
+            }
+        }
+        .item{
+            input[type=checkbox]{float:left;margin-top: 7px;}
+            .pic{display:none;cursor:pointer;float:left;height: 100%;width: 40px;
+                input{display:none;}
+            }
+            .info{float:left;height: 100%;
+                span{}
+                input[type="text"]{display:none;left: -5px;margin-top: 0px;width: 100%;position: relative;top: -7px;color: #a2a2a2;background: transparent;border: 0px !important;}
+            }
+        }
+    }
+    
+}
+a[href="theme-editor.php"]{
+    display: none !important;
+}
+/*
+* Классы
+*/
+.removescroll{
+	&::-webkit-scrollbar{display:none;}
+	&::-o-scrollbar{display:none;}
+	&::-moz-scrollbar{display:none;}
+}
+.easeInQuad(@timing,@delay){
+	-webkit-transition: @timing cubic-bezier(0.55, 0.085, 0.68, 0.53) @delay;
+	transition: @timing cubic-bezier(0.55, 0.085, 0.68, 0.53) @delay;
+}
+
